@@ -6,8 +6,41 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  font-family: roboto, serif;
 }
 
 body{
   height: 100vh;
+}
+
+.header-container{
+  background-color: #1F2937;
+}
+
+header{
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 70rem;
+  margin: auto;
+}
+
+h1{
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+a{
+  font-size: 18px;
+  color: #E5E7EB;
+  text-decoration: none;
 }
