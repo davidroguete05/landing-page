@@ -19,11 +19,25 @@ body{
   background-color: #1F2937;
 }
 
-header, .hero{
+.hero-container{
+  display: flex;
+  padding: 50px 0px;
+  justify-content: space-between;
+}
+
+header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 70rem;
+  max-width: 60%;
+  margin: auto;
+}
+
+.hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 60%;
   margin: auto;
 }
 
@@ -54,4 +68,9 @@ a, .second-text{
 
 a{
   text-decoration: none;
+}
+
+button{
+  background-color: #3882f6;
+  color:#f9faf8;
 }
