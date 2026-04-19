@@ -15,12 +15,11 @@ body{
   height: 100vh;
 }
 
-.header-container{
+.header-container, .hero-container{
   background-color: #1F2937;
 }
 
-header{
-  height: 72px;
+header, .hero{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,8 +27,17 @@ header{
   margin: auto;
 }
 
+header{
+  height: 72px;
+}
+
 h1{
   font-size: 24px;
+  color: #F9FAF8;
+}
+
+h2{
+  font-size: 48px;
   color: #F9FAF8;
 }
 
@@ -39,8 +47,11 @@ ul{
   gap: 20px;
 }
 
-a{
+a, .second-text{
   font-size: 18px;
   color: #E5E7EB;
+}
+
+a{
   text-decoration: none;
 }
