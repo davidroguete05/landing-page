@@ -21,8 +21,12 @@ body{
 
 .hero-container{
   display: flex;
-  padding: 50px 0px;
+  padding: 80px 0px;
   justify-content: space-between;
+}
+
+.hero-left{
+  padding-right: 200px;
 }
 
 header{
