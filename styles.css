@@ -82,3 +82,33 @@ button{
   border-radius: 8px;
   margin-top: 10px;
 }
+
+.main-image{
+  border-radius: 10px;
+}
+
+.info{
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  text-align: center;
+  margin: 48px 0;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card{
+  border: 5px solid #3882F6;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.card-text{
+  text-align: center;
+}
