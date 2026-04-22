@@ -87,12 +87,22 @@ button{
   border-radius: 10px;
 }
 
-.info{
+.info, .quote{
   font-size: 36px;
   color: #1F2937;
+}
+
+.info{
   font-weight: 900;
   text-align: center;
   margin: 48px 0;
+}
+
+.quote{
+  font-weight: 300;
+  text-align: justify;
+  width: 50%;
+  margin: auto;
 }
 
 .cards{
@@ -100,6 +110,7 @@ button{
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
+  margin-bottom: 96px;
 }
 
 .card{
@@ -111,4 +122,14 @@ button{
 
 .card-text{
   text-align: center;
+}
+
+.quote-container{
+  background-color: #E5E7EB;
+  padding: 100px;
+}
+
+cite{
+  display: block;
+  text-align: end;
 }
