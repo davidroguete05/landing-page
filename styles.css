@@ -12,7 +12,13 @@ html {
 }
 
 body{
+  display: flex;
+  flex-direction: column;
   height: 100vh;
+}
+
+main{
+  flex: 1;
 }
 
 .header-container, .hero-container{
@@ -167,4 +173,14 @@ cite{
 .cta-text2{
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.footer{
+  background-color: #1F2937;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 72px;
 }
