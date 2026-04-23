@@ -73,14 +73,23 @@ a{
   text-decoration: none;
 }
 
-.sign-up1{
+.sign-up1, .sign-up2{
   font-weight: 900;
   background-color: #3882f6;
   color:#f9faf8;
-  padding: 5px 30px;
-  border: none;
   border-radius: 8px;
+}
+
+.sign-up1{
+  border: none;
+  padding: 5px 30px;
   margin-top: 10px;
+}
+
+.sign-up2{
+  border: 2px solid #eeeeee;
+  padding: 5px 30px;
+  align-self: center;
 }
 
 .main-image{
@@ -147,4 +156,15 @@ cite{
   background-color: #3882f6;
   border-radius: 10px;
   padding: 24px;
+}
+
+.cta-text1{
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.cta-text2{
+  font-size: 18px;
+  color: #e5e7eb;
 }
